@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/nunito':
+    specifier: ^5.0.18
+    version: 5.0.18
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1724,6 +1727,10 @@ packages:
   /@fal-works/esbuild-plugin-global-externals@2.1.2:
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
     dev: true
+
+  /@fontsource-variable/nunito@5.0.18:
+    resolution: {integrity: sha512-DaAMnvCuwxv2tCjUIGudvayzO3jjsDEH2DcqcgwRZnjBp5RZRynYkV4aBmvMkQ+Grzpm7MMTqNltiLcJxqSeAQ==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -4234,7 +4241,7 @@ packages:
       supports-color:
         optional: true
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
     dev: true
 
   /debug@4.3.4:
