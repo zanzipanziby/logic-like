@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 
 import ReactDOM from 'react-dom/client'
 
-import './index.css'
+import './styles/index.scss'
+import '@fontsource-variable/nunito'
 
 import App from './App'
 
