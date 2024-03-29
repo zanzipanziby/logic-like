@@ -1,0 +1,19 @@
+.sidebarElem {
+  cursor: pointer;
+  padding: 12px;
+  color: var(--primary-text-color);
+  border-radius: 12px;
+
+  &:hover {
+    background-color: var(--primary-hover-color);
+  }
+}
+
+.active {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-background-color);
+
+  &:hover {
+    background-color: var(--primary-background-color);
+  }
+}
