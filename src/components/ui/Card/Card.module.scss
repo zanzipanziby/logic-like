@@ -1,0 +1,23 @@
+.card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-width: 210px;
+  max-width: 393px;
+  height: 210px;
+
+  border-radius: var(--size-sm);
+  box-shadow: 0 10px 13px -4px rgb(35 35 95 / 19%);
+
+  .imageContainer {
+    flex-grow: 1;
+    background: var(--card-background-color) var(--card-background-image) no-repeat center / auto
+      100%;
+  }
+
+  .title {
+    padding: var(--size-sm) var(--size-lg) var(--size-lg);
+  }
+}
