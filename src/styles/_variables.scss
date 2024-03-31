@@ -1,5 +1,10 @@
 :root {
-  //padding, gap, border-radius
+  /* padding, gap, border-radius */
   --size-sm: 12px;
   --size-lg: 18px;
+
+  /* width, height for card */
+  --max-card-width: 393px;
+  --min-card-width: 210px;
+  --card-height: var(--min-card-width);
 }

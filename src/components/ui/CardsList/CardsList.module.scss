@@ -1,0 +1,5 @@
+.cardsList {
+  display: grid;
+  grid-gap: var(--size-lg);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-card-width), 1fr));
+}
