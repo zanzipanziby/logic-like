@@ -17,6 +17,7 @@ type Story = StoryObj<typeof meta>
 export const Default: Story = {
   args: {
     activeTab: 'Все продукты',
+    setActiveTab: (_: string) => {},
     sidebarElems,
   },
   decorators: [
