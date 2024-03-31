@@ -1,4 +1,4 @@
-import type { Card as CardType } from '../../../types/card'
+import type { Courses as CardType } from '../../../types/courses.ts'
 
 import s from './CardsList.module.scss'
 

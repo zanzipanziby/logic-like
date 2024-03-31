@@ -1,5 +1,7 @@
+import { Courses } from './components/Courses'
+
 function App() {
-  return <></>
+  return <Courses />
 }
 
 export default App
