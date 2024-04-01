@@ -1,12 +1,12 @@
-import type { Courses as CardType } from '../../../types/courses.ts'
+import { memo } from 'react'
 
-import s from './CardsList.module.scss'
+import s from './CourseList.module.scss'
 
+import { Courses } from '../../../types/courses.ts'
 import { Card } from '../Card'
 
-export const CardsList = ({ cards }: Props) => {
+export const CourseList = memo(({ cards }: Props) => {
   return (
-    //todo перевести на ul > li
     <ul className={s.cardsList}>
       {cards.map(card => (
         <li key={card.id}>
@@ -15,8 +15,7 @@ export const CardsList = ({ cards }: Props) => {
       ))}
     </ul>
   )
-}
+})
 type Props = {
-  //todo исправить тип
-  cards: CardType[]
+  cards: Courses[]
 }

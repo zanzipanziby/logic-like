@@ -1,1 +1,1 @@
-export { CardsList } from './CardsList'
+export { CourseList } from './CourseList.tsx'

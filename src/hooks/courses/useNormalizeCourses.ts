@@ -23,7 +23,7 @@ export const useNormalizedCourses = (courses: Courses[]) => {
       })
     })
 
-    setTags([...newTagsSet])
+    setTags(['Все темы', ...newTagsSet])
 
     setNormalizeCourses(newNormalizeCourses)
   }, [courses])

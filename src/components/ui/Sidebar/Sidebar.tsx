@@ -1,8 +1,10 @@
+import { memo } from 'react'
+
 import s from './Sidebar.module.scss'
 
 import { SidebarElem } from '../SidebarElem/SidebarElem'
 
-export const Sidebar = ({ activeTab, className, setActiveTab, sidebarElems }: Props) => {
+export const Sidebar = memo(({ activeTab, className, setActiveTab, sidebarElems }: Props) => {
   return (
     <aside>
       <nav>
@@ -21,7 +23,7 @@ export const Sidebar = ({ activeTab, className, setActiveTab, sidebarElems }: Pr
       </nav>
     </aside>
   )
-}
+})
 type Props = {
   activeTab: string
   className?: string

@@ -8,13 +8,11 @@ class LogicLikeAPI {
   constructor(baseUrl: string) {
     this.instance = axios.create({
       baseURL: baseUrl,
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      withCredentials: true,
     })
   }
 
   getCourses() {
-    return this.instance.get<Courses[]>('/')
+    return this.instance.get<Courses[]>('')
   }
 }
 

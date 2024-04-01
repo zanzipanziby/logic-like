@@ -1,4 +1,4 @@
-export const cardListMockData = [
+export const courseListMockData = [
   {
     bgColor: '#FF9966',
     id: 'course:1',
