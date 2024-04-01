@@ -16,13 +16,13 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    activeTab: 'Все продукты',
+    activeTab: 'Все темы',
     setActiveTab: (_: string) => {},
     sidebarElems,
   },
   decorators: [
     Story => (
-      <div style={{ maxWidth: '264px' }}>
+      <div style={{ maxWidth: 'var(--sidebar-width)' }}>
         <Story />
       </div>
     ),

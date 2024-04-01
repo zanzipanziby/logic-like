@@ -14,8 +14,15 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    isActive: false,
+    isActive: true,
     onClick: () => {},
     title: 'Все темы',
   },
+  decorators: [
+    Story => (
+      <div style={{ width: 'calc(var(--sidebar-width) - var(--size-md)*2 )' }}>
+        <Story />
+      </div>
+    ),
+  ],
 }
