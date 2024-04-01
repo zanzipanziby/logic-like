@@ -2,7 +2,7 @@
   cursor: pointer;
   padding: 12px;
   color: var(--primary-text-color);
-  border-radius: 12px;
+  border-radius: var(--size-sm);
 
   &:hover {
     background-color: var(--primary-hover-color);
