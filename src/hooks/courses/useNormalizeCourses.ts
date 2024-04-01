@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { Courses, NormalizeCoursesType } from '../../types/courses.ts'
+import { Courses, NormalizeCoursesType } from '../../types/courses'
 
 export const useNormalizedCourses = (courses: Courses[]) => {
   const [tags, setTags] = useState<string[]>([])

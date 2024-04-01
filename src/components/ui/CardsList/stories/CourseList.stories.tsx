@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { CourseList } from '../CourseList.tsx'
-import { courseListMockData } from './CourseList.mockData.ts'
+import { CourseList } from '../CourseList'
+import { courseListMockData } from './CourseList.mockData'
 
 const meta = {
   component: CourseList,
