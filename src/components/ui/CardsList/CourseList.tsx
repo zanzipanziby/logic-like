@@ -2,7 +2,7 @@ import { memo } from 'react'
 
 import s from './CourseList.module.scss'
 
-import { Courses } from '../../../types/courses.ts'
+import { Courses } from '../../../types/courses'
 import { Card } from '../Card'
 
 export const CourseList = memo(({ cards }: Props) => {

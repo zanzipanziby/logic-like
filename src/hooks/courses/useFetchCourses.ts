@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { AxiosError } from 'axios'
 
 import { logicLikeAPI } from '../../api'
-import { Courses } from '../../types/courses.ts'
+import { Courses } from '../../types/courses'
 
 export const useFetchCourses = () => {
   const [courses, setCourses] = useState<Courses[]>([])

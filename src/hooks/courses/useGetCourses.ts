@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import { useFetchCourses } from './useFetchCourses.ts'
-import { useNormalizedCourses } from './useNormalizeCourses.ts'
+import { useFetchCourses } from './useFetchCourses'
+import { useNormalizedCourses } from './useNormalizeCourses'
 export const ALL_THEMES = 'Все темы'
 
 export const useGetCourses = () => {
